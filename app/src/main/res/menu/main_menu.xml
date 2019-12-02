@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/menu_principal"
+        android:title="Principal"
+        
+        android:icon="@drawable/casa" />
+
+
+    <item android:id="@+id/menu_lupa"
+        android:title="Lupa"
+        android:icon="@drawable/lupa" />
+
+
+
+    <item android:id="@+id/menu_sum"
+        android:title="busquedasum"
+        android:icon="@drawable/circulo"/>
+
+    <item android:id="@+id/menu_notificacion"
+        android:title="Notificacion"
+        android:icon="@drawable/notificacion"/>
+
+
+
+    <item android:id="@+id/menu_nosotros"
+        android:title="Nosotros"
+        android:icon="@drawable/nosotros"/>
+
+
+</menu>

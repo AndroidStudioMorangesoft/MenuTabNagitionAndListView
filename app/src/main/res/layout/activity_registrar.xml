@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:scaleType = "centerCrop"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:scaleType = "centerCrop"
+        >
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/concebir_logo"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:paddingRight="30dp">
+
+        <EditText
+            android:id="@+id/dni"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/label"
+            android:hint="DNI"
+
+            android:textColorHint="#0B610B"
+            android:gravity="center"
+            android:layout_marginTop="136dp"
+
+
+
+
+            />
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/usuario"
+            android:layout_marginTop="50dp"
+            android:hint="CORREO"
+            android:textColorHint="#0B610B"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/password"
+            android:layout_marginTop="50dp"
+            android:inputType="textPassword"
+            android:hint="PASSWORD"
+            android:textColorHint="#0B610B"
+            android:gravity="center"
+
+            />
+
+
+        <Button
+            android:id="@+id/btnUnete"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="70dp"
+            android:enabled="true"
+
+            android:background="@drawable/btnregistrarse"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
